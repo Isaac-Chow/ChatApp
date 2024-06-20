@@ -1,0 +1,22 @@
+{% extends "./includes/base.html" %}
+
+<!-- Page title -->
+{% block title %}
+{{user.name }}|| My App
+{% endblock %}
+
+<!-- Page Greeting -->
+{% block page_greeting %}
+Hiyaaa lets start 
+{% endblock %}
+
+<!-- Page Message -->
+{% block page_message%}
+Welcome to my little world mini Users
+{%endblock%}
+
+
+<!-- Page Content -->
+{% block content %}
+<h2>{{user.name }}</h2>
+{% endblock %}
